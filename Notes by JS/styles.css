@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2e2e2e;
+  background-color: white;
+}
+.notes-icon {
+  width: 2em;
+  height: 2em;
+}
+.header {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.edit {
+  width: 2em;
+  height: 1.5em;
+}
+button {
+  background: linear-gradient(#cd8eeb, #947b97);
+  width: 12em;
+  height: 2.5em;
+  padding: 2px 3px 5px 3px;
+  color: #2e2e2e;
+  border: 0;
+  outline: 0;
+  border-radius: 24px;
+  margin-top: 2em;
+  cursor: pointer;
+}
+.notes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+.notes-box {
+  position: relative;
+  width: 350px;
+  max-width: 500px;
+  min-height: 150px;
+  background: linear-gradient(#cd8eeb, #947b97);
+  color: rgb(28, 28, 28);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px 0px;
+  cursor: pointer;
+  outline: none;
+}
+.bin {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
